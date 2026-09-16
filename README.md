@@ -46,9 +46,8 @@ This project demonstrates:
 - Exception-free input handling
 - Basic OOP principles
 
-## 📂 Project Structure
+##  Project Structure
 
-```text
 Library-Management-System/
 │
 ├── src/
@@ -65,3 +64,103 @@ Library-Management-System/
 ├── .gitignore
 └── LICENSE
 
+---
+
+## How to Run
+
+1. Clone the Repository
+git clone <repository-url>
+
+2. Open the Project
+Open the Library-Management-System folder in Visual Studio Code.
+
+3. Open the Terminal
+Navigate to the src folder:
+cd src
+
+4. Compile the Java Files
+javac *.java
+
+6. Run the Program
+java Main
+
+## How the system works
+
+             START
+               ↓
+          Display Menu
+               ↓
+       Select an Operation
+               ↓
+      Perform the Operation
+               ↓
+        Display the Result
+               ↓
+        Return to Menu
+               ↓
+          Exit System
+
+## Main Classes
+
+Book.java
+Represents a book in the library.
+
+It stores:
+Book ID
+Book title
+Author name
+Book availability status
+
+Member.java
+Represents a library member.
+It stores:
+Member ID
+Member name
+
+Library.java
+Manages the library operations, including:
+Adding books
+Adding members
+Searching books
+Issuing books
+Returning books
+Removing books
+Displaying books and members
+
+Main.java
+Contains the main() method and provides the interactive menu through which the user operates the system.
+          
+## Library.java
+
+Manages the library operations, including:
+
+Adding books
+Adding members
+Searching books
+Issuing books
+Returning books
+Removing books
+Displaying books and members
+Main.java
+
+Contains the main() method and provides the interactive menu through which the user operates the system.
+
+## Future Improvements
+
+Possible future improvements include:
+
+Graphical User Interface (GUI)
+Database integration
+Login and authentication
+Due date and fine calculation
+Book categories
+Member-wise borrowing history
+
+## Author
+
+Piya Nimje
+
+B.Tech CSE (AIML)
+VIT Bhopal University
+
+This project was created as a Java learning project to practice Object-Oriented Programming and basic software development concepts.
