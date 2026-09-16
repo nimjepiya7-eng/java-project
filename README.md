@@ -49,21 +49,38 @@ This project demonstrates:
 ##  Project Structure
 
 Library-Management-System/
+
+```
+
 │
+
 ├── src/
+
 │   ├── Book.java
+
 │   ├── Member.java
+
 │   ├── Library.java
+
 │   └── Main.java
+
 │
+
 ├── screenshots/
+
 │
+
 ├── docs/
+
 │
+
 ├── README.md
+
 ├── .gitignore
+
 └── LICENSE
 
+```
 ---
 
 ## How to Run
