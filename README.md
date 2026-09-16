@@ -72,9 +72,9 @@ Library-Management-System/
 ## How to Run
 
 1. Clone the Repository
-
+```
 git clone <repository-url>
-
+```
 3. Open the Project
 
 Open the Library-Management-System folder in Visual Studio Code.
@@ -82,13 +82,13 @@ Open the Library-Management-System folder in Visual Studio Code.
 5. Open the Terminal
 
 Navigate to the src folder:
-
+```
 cd src
-
+```
 6. Compile the Java Files
-
+```
 javac *.java
-
+```
 7. Run the Program
 
 java Main
@@ -119,29 +119,43 @@ Represents a book in the library.
 It stores:
 
 -Book ID
+
 -Book title
+
 -Author name
+
 -Book availability status
+
 
 Member.java
 
 Represents a library member.
 
 It stores:
+
 -Member ID
+
 -Member name
+
 
 Library.java
 
 Manages the library operations, including:
 
 -Adding books
+
 -Adding members
+
 -Searching books
+
 -Issuing books
+
 -Returning books
+
 -Removing books
+
 -Displaying books and members
+
 
 Main.java
 
