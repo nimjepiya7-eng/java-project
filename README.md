@@ -51,33 +51,19 @@ This project demonstrates:
 Library-Management-System/
 
 ```
-
 │
-
 ├── src/
-
 │   ├── Book.java
-
 │   ├── Member.java
-
 │   ├── Library.java
-
 │   └── Main.java
-
 │
-
 ├── screenshots/
-
 │
-
 ├── docs/
-
 │
-
 ├── README.md
-
 ├── .gitignore
-
 └── LICENSE
 
 ```
@@ -86,20 +72,27 @@ Library-Management-System/
 ## How to Run
 
 1. Clone the Repository
+
 git clone <repository-url>
 
-2. Open the Project
+3. Open the Project
+
 Open the Library-Management-System folder in Visual Studio Code.
 
-3. Open the Terminal
+5. Open the Terminal
+
 Navigate to the src folder:
+
 cd src
 
-4. Compile the Java Files
+6. Compile the Java Files
+
 javac *.java
 
-6. Run the Program
+7. Run the Program
+
 java Main
+
 
 ## How the system works
 
@@ -167,10 +160,15 @@ Contains the main() method and provides the interactive menu through which the u
 Possible future improvements include:
 
 Graphical User Interface (GUI)
+
 Database integration
+
 Login and authentication
+
 Due date and fine calculation
+
 Book categories
+
 Member-wise borrowing history
 
 ## Author
@@ -178,6 +176,7 @@ Member-wise borrowing history
 Piya Nimje
 
 B.Tech CSE (AIML)
+
 VIT Bhopal University
 
 This project was created as a Java learning project to practice Object-Oriented Programming and basic software development concepts.
